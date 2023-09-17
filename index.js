@@ -22,31 +22,31 @@ for(let i=0;i<sall.length;i++){
 }
 call=function(c) {
    if(c=="w"){
-      var ad=new Audio("sounds/tom-1.mp3");
+      var ad=new Audio("tom-1.mp3");
       ad.play();
    }
    else if(c== "a"){
-      var ad=new Audio("sounds/tom-2.mp3");
+      var ad=new Audio("tom-2.mp3");
       ad.play();
    }
    else if(c== "s"){
-      var ad=new Audio("sounds/tom-3.mp3");
+      var ad=new Audio("tom-3.mp3");
       ad.play();
    }
    else if(c== "d"){
-      var ad=new Audio("sounds/tom-4.mp3");
+      var ad=new Audio("tom-4.mp3");
       ad.play();
    }
    else if(c== "j"){
-      var ad=new Audio("sounds/crash.mp3");
+      var ad=new Audio("crash.mp3");
       ad.play();
    }
    else if(c== "k"){
-      var ad=new Audio("sounds/snare.mp3");
+      var ad=new Audio("snare.mp3");
       ad.play();
    }
    else{
-      var ad=new Audio("sounds/kick-bass.mp3");
+      var ad=new Audio("kick-bass.mp3");
       ad.play(); 
    }
 
